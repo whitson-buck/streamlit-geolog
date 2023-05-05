@@ -1,8 +1,6 @@
 # streamlit-multipage-template
 
-A streamlit multipage app template for geospatial applications. It can be deployed to [Streamlit Cloud](https://streamlit.io/cloud) or [MyBinder](https://mybinder.org/).
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/giswqs/streamlit-multipage-template/master?urlpath=proxy/8501/)
+A streamlit multipage app for GEOG 510 final project.
 
 Web App URL: <https://geotemplate.streamlit.app>
 
