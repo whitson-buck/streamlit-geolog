@@ -39,4 +39,4 @@ st.markdown(markdown)
 
 m = geolog.Map(minimap_control=True)
 m.add_basemap("satellite")
-st_folium(m,width=725)
+m.to_streamlit(height=500)
