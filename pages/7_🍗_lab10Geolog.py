@@ -15,9 +15,6 @@ with col2:
 
     url = st.text_input("Enter URL", default_url)
 
-if url:
-    m.add_tile_layer(url, name= 'Tile Layer', attribution=' ')
-
 with col1:
     m = leafmap.Map(locate_control=True, latlon_control=True, draw_export=True, minimap_control=True)
     if url:
