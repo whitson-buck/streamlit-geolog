@@ -8,3 +8,4 @@ owslib
 streamlit
 geolog
 ipyleaflet
+streamlit_folium
