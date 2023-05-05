@@ -36,7 +36,6 @@ markdown = """
 
 st.markdown(markdown)
 
-m = geolog.Map()
-m.add_basemap("satellite")
+m = leafmap.Map()
+m.add_basemap("OpenTopoMap")
 m.to_streamlit(height=500)
-s
