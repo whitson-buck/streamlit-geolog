@@ -15,12 +15,14 @@ with col2:
 
     url = st.text_input("Enter URL", default_url)
 
-m = leafmap.Map(locate_control=True, latlon_control=True, draw_export=True, minimap_control=True)
-m.add_basemap(dropdown)
-# m.to_streamlit(height=700)
-
 if url:
     m.add_tile_layer(url, name= 'Tile Layer', attribution=' ')
 
 with col1:
+    m = leafmap.Map(locate_control=True, latlon_control=True, draw_export=True, minimap_control=True)
+    if url:
+        m.add_tile_layer(url, name="Your Basemap", attribution="")
+    else:
+        m.add_basemap(dropdown)
+    # m.to_streamlit(height=700)
     m.to_streamlit()
