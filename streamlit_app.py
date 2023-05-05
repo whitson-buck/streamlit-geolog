@@ -27,10 +27,10 @@ st.markdown(
 st.header("Instructions")
 
 markdown = """
-1. Step one
-2. Step two
-3. Step three
-4. Step four
+1. Browse map and add markers
+2. Copy Lat and Long data into geolog
+3. Compare Land Use and Topographical maps in split map
+4. Find sinks in the ground!
 
 """
 
