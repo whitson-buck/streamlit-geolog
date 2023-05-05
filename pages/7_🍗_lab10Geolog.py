@@ -17,7 +17,7 @@ with col2:
 
 m = leafmap.Map(locate_control=True, latlon_control=True, draw_export=True, minimap_control=True)
 m.add_basemap(dropdown)
-m.to_streamlit(height=700)
+# m.to_streamlit(height=700)
 
 if url:
     m.add_tile_layer(url, name= 'Tile Layer', attribution=' ')
