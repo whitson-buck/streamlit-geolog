@@ -1,7 +1,6 @@
 import streamlit as st
 import leafmap.foliumap as leafmap
 import geolog
-from streamlit_folium import st_folium
 
 st.set_page_config(layout="wide")
 
@@ -37,6 +36,6 @@ markdown = """
 
 st.markdown(markdown)
 
-m = geolog.Map(minimap_control=True)
+m = geolog.Map()
 m.add_basemap("satellite")
 m.to_streamlit(height=500)
