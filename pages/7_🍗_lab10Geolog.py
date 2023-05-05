@@ -7,9 +7,11 @@ col1, col2 = st.columns([4,1])
 
 options = list(leafmap.basemaps.keys())
 
+index= options.index("OpenTopoMap")
+
 
 with col2:
-    dropdown = st.selectbox("Basemap", options)
+    dropdown = st.selectbox("Basemap", options, index)
 
     default_url = leafmap.basemaps[dropdown].tiles
 
